@@ -1,0 +1,13 @@
+python search6.py
+Enter the file name: missing.txt
+Traceback (most recent call last):
+  File "search6.py", line 2, in <module>
+    fhand = open(fname)
+FileNotFoundError: [Errno 2] No such file or directory: 'missing.txt'
+
+python search6.py
+Enter the file name: na na boo boo
+Traceback (most recent call last):
+  File "search6.py", line 2, in <module>
+    fhand = open(fname)
+FileNotFoundError: [Errno 2] No such file or directory: 'na na boo boo'
